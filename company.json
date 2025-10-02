@@ -1,0 +1,195 @@
+{
+  "company": {
+    "full_name": "ООО \"Смарт сейзл\"",
+    "trade_name": "Electro Power",
+    "UNP": "193573603",
+    "registration": {
+      "trade_register_number": "578513",
+      "registration_date": "2024-04-11"
+    },
+    "address": {
+      "legal": {
+        "country": "Belarus",
+        "city": "Минск",
+        "postal_code": "220015",
+        "street": "ул. Одоевского 115а",
+        "office": "пом 225",
+        "full_address": "220015 г. Минск, ул. Одоевского 115а, пом 225"
+      },
+      "service_center": {
+        "country": "Belarus", 
+        "city": "Минск",
+        "postal_code": "220015",
+        "street": "ул. Одоевского 115а",
+        "office": "пом 225",
+        "full_address": "220015 г. Минск, ул. Одоевского 115а, пом 225"
+      }
+    },
+    "contacts": {
+      "phones": [
+        {
+          "number": "+375297797807",
+          "type": "primary",
+          "description": "Основной номер"
+        },
+        {
+          "number": "+375336563496", 
+          "type": "secondary",
+          "description": "Дополнительный номер"
+        }
+      ],
+      "emails": [
+        {
+          "email": "toyou.work@yandex.by",
+          "type": "primary",
+          "description": "Основная электронная почта"
+        }
+      ],
+      "working_hours": {
+        "schedule": "Ежедневно с 9:30 до 21:30",
+        "weekdays": "09:30-21:30",
+        "weekends": "09:30-21:30"
+      }
+    },
+    "business_info": {
+      "years_in_business": 4,
+      "founded_year": 2020,
+      "industry": "Розничная торговля электротранспортом",
+      "specialization": [
+        "Электросамокаты",
+        "Электровелосипеды", 
+        "Электроскутеры",
+        "Запчасти и аксессуары",
+        "Сервисное обслуживание"
+      ],
+      "key_features": [
+        "Официальный дилер электротранспорта в Беларуси",
+        "Собственный сервисный центр",
+        "Гарантия 12 месяцев",
+        "Пожизненная скидка на запчасти",
+        "Тест-драйв",
+        "Доставка по Беларуси",
+        "Рассрочка и кредит"
+      ]
+    },
+    "verified_sources": [
+      {
+        "source": "electro-power.by",
+        "type": "official_website",
+        "verified_date": "2024-09-17",
+        "status": "active"
+      },
+      {
+        "source": "Торговый реестр Беларуси",
+        "type": "government_registry",
+        "registration_number": "578513",
+        "registration_date": "2024-04-11",
+        "status": "registered"
+      },
+      {
+        "source": "УНП 193573603",
+        "type": "tax_number",
+        "verified_date": "2024-09-17",
+        "status": "valid"
+      }
+    ],
+    "social_media": {
+      "instagram": "https://www.instagram.com/electropower.by",
+      "youtube": "https://www.youtube.com/channel/UCS1CFg5AqmtIe5kTemcvD1Q",
+      "telegram": "https://telegram.me/Electropowerby",
+      "viber": "viber://chat?number=%2B375297797807",
+      "whatsapp": "https://wa.me/+375297797807"
+    },
+    "services": {
+      "sales": {
+        "products": [
+          "Электросамокаты",
+          "Электровелосипеды",
+          "Электроскутеры",
+          "Запчасти",
+          "Аксессуары"
+        ],
+        "brands": [
+          "Kugoo",
+          "CityCoco",
+          "GT",
+          "IKINGI",
+          "CAMRY"
+        ]
+      },
+      "delivery": {
+        "minsk_pickup": {
+          "cost": "Бесплатно",
+          "description": "Самовывоз из магазина в Минске"
+        },
+        "minsk_courier": {
+          "cost": "Платно",
+          "delivery_time": "В день заказа",
+          "description": "Доставка курьером по Минску"
+        },
+        "belarus_shipping": {
+          "cost": "Платно",
+          "delivery_time": "От 1 дня",
+          "description": "Доставка по Беларуси"
+        }
+      },
+      "payment": {
+        "methods": [
+          "Наличными при получении",
+          "Банковской картой",
+          "Банковский перевод"
+        ],
+        "credit_options": [
+          {
+            "bank": "IdeaBank",
+            "type": "Онлайн рассрочка",
+            "period": "2-4 месяца",
+            "features": ["Онлайн оформление", "Досрочное погашение"]
+          },
+          {
+            "bank": "ВТБанк",
+            "type": "Карта Портмоне",
+            "period": "2-48 месяцев",
+            "features": ["Без поручителей", "Ответ за 15 минут"]
+          },
+          {
+            "bank": "Совкомбанк",
+            "type": "Карта Халва",
+            "period": "3-12 месяцев",
+            "features": ["Разные варианты рассрочки"]
+          }
+        ]
+      },
+      "warranty": {
+        "standard_warranty": "12 месяцев",
+        "lifetime_discount": "Пожизненная скидка на запчасти",
+        "service_center": "Собственный сервисный центр"
+      },
+      "test_drive": {
+        "available": true,
+        "description": "Тест-драйв всех моделей",
+        "booking": "По предварительной записи"
+      }
+    },
+    "certifications": {
+      "dealer_status": "Официальный дилер электротранспорта в Беларуси",
+      "trade_license": {
+        "number": "578513",
+        "issued_date": "2024-04-11",
+        "issuing_authority": "Торговый реестр Беларуси"
+      }
+    },
+    "geographic_coverage": {
+      "primary_market": "Минск",
+      "secondary_markets": ["Вся Беларусь"],
+      "service_areas": ["Минск", "Беларусь"]
+    }
+  },
+  "metadata": {
+    "last_updated": "2024-09-17T10:26:00Z",
+    "data_version": "1.0",
+    "source": "Official website analysis and company documentation",
+    "verification_status": "Verified",
+    "next_verification": "2025-03-17T10:26:00Z"
+  }
+}
