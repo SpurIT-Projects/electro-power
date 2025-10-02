@@ -1,0 +1,37 @@
+name: Deploy static site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare site content
+        run: |
+          mkdir site
+          # копируем html
+          cp -r pages/* site/
+          # копируем ассеты (если есть)
+          cp -r assets site/ || true
+          # заменяем пути ../assets/ → assets/
+          find site -name "*.html" -exec sed -i 's|\.\./assets/|assets/|g' {} \;
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
